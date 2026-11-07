@@ -1,0 +1,16 @@
+{
+  "name": "music-rights-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A rights-aware MCP server for cataloguing a music export and acquiring only authorized files.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/csv.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}
